@@ -8,9 +8,10 @@
 	<Property Name="varPersistentID:{09791699-79D9-4D84-805F-F30BCB4A8BD9}" Type="Ref">/My Computer/HE SHARED.lvlib/DI14</Property>
 	<Property Name="varPersistentID:{0A99F2C8-47A0-4AC2-BDF1-460F7FB72F6A}" Type="Ref">/My Computer/HE SHARED.lvlib/Anayze FC IN</Property>
 	<Property Name="varPersistentID:{0C1BBE5A-CA7F-4F9C-9B41-40E369347B46}" Type="Ref">/My Computer/HE SHARED.lvlib/DO4</Property>
-	<Property Name="varPersistentID:{0C260CED-1EA5-4423-AB81-C81ADC0664F0}" Type="Ref">/Transmission/RT_Transmission.vi/PID/error in</Property>
+	<Property Name="varPersistentID:{0C3ABBAE-AB43-43BE-88CF-6F9B597268B6}" Type="Ref">/Transmission/RT_Transmission.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{0C6E4DCC-D9D3-47D3-859D-3248277E8828}" Type="Ref">/My Computer/HE SHARED.lvlib/DI6</Property>
 	<Property Name="varPersistentID:{0D0B6A77-2806-4BD0-99B6-DAF8C8B5F9A1}" Type="Ref">/My Computer/HE SHARED.lvlib/AI25</Property>
+	<Property Name="varPersistentID:{0D314C74-5BCF-47B9-9623-2A2059AE5181}" Type="Ref">/Transmission/RT_Transmission.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{0E0C50EE-2A45-48C2-A64A-F956FB5C9FED}" Type="Ref">/Transmission/trans rio shared var.lvlib/x steerer -</Property>
 	<Property Name="varPersistentID:{118B509E-010A-4BA9-AD83-2859B970A011}" Type="Ref">/My Computer/HE SHARED.lvlib/DI30</Property>
 	<Property Name="varPersistentID:{1226456D-57CD-4926-9B7C-E6032EA166F1}" Type="Ref">/My Computer/HE SHARED.lvlib/DI2</Property>
@@ -19,17 +20,16 @@
 	<Property Name="varPersistentID:{15324A12-8AA5-4060-8A90-8A1BA8BB6438}" Type="Ref">/My Computer/HE SHARED.lvlib/DI7</Property>
 	<Property Name="varPersistentID:{15D0E9BF-C951-45BB-AC2D-0DA440CAE55B}" Type="Ref">/My Computer/HE SHARED.lvlib/AO15</Property>
 	<Property Name="varPersistentID:{15D49FE3-38B2-444C-A3B7-0539F0CFD9C5}" Type="Ref">/My Computer/HE SHARED.lvlib/DI5</Property>
+	<Property Name="varPersistentID:{1613659B-613A-4247-A8D3-DED16144077D}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{164C7EC8-CC65-42B7-AEA4-700BCC460989}" Type="Ref">/My Computer/HE SHARED.lvlib/DI18</Property>
 	<Property Name="varPersistentID:{1B332E3F-63CC-4AF0-A09E-EA80A99BC87A}" Type="Ref">/Transmission/trans rio shared var.lvlib/ExB current readback -</Property>
 	<Property Name="varPersistentID:{1BDB7091-6F61-423B-A1B2-3C4AC29038DF}" Type="Ref">/My Computer/HE SHARED.lvlib/AI30</Property>
 	<Property Name="varPersistentID:{1C714BFF-BDE4-4100-BD34-DBB84C00F672}" Type="Ref">/My Computer/HE SHARED.lvlib/DI10</Property>
 	<Property Name="varPersistentID:{1D8A10F3-C985-4966-B7F2-2015C9BEDF5F}" Type="Ref">/My Computer/HE SHARED.lvlib/HE memory total</Property>
 	<Property Name="varPersistentID:{1DA6DFB4-5C44-4677-A58E-A533A0282643}" Type="Ref">/Transmission/trans rio shared var.lvlib/analyze magnets power supply set value</Property>
-	<Property Name="varPersistentID:{208E535F-C5AC-4A15-B325-DF8BBC5AE027}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output low</Property>
+	<Property Name="varPersistentID:{1F34B557-DD97-40CC-B212-2E5D901BFC71}" Type="Ref">/Transmission/RT_Transmission.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{218C7C3F-35E2-4C9C-8178-1116E3F73291}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Str Current6</Property>
-	<Property Name="varPersistentID:{267DC55B-60CD-48E2-8D5A-584505AB0AE0}" Type="Ref">/Transmission/RT_Transmission.vi/PID/dt out (s)</Property>
 	<Property Name="varPersistentID:{2802A5A6-34F2-4706-9AD9-78AABECB632A}" Type="Ref">/My Computer/HE SHARED.lvlib/DI16</Property>
-	<Property Name="varPersistentID:{285B67C9-E072-4542-8CC5-D363F4F0CD8E}" Type="Ref">/Transmission/RT_Transmission.vi/PID/manual control</Property>
 	<Property Name="varPersistentID:{29C39AE0-12DC-4DE1-933F-AEF2AF952832}" Type="Ref">/My Computer/HE SHARED.lvlib/DI8</Property>
 	<Property Name="varPersistentID:{2CA0C73B-D7A5-4880-B779-142928243556}" Type="Ref">/Transmission/trans rio shared var.lvlib/trans steerer X+ current</Property>
 	<Property Name="varPersistentID:{3395C9FC-5C7A-4084-B650-1EEBE216EC9B}" Type="Ref">/Transmission/trans rio shared var.lvlib/diverter</Property>
@@ -38,22 +38,19 @@
 	<Property Name="varPersistentID:{3ABA4969-0E4C-45A0-9786-AA4E200B4F94}" Type="Ref">/My Computer/HE SHARED.lvlib/DI4</Property>
 	<Property Name="varPersistentID:{3D15BFF8-857F-40DF-9863-74FCAFA6628A}" Type="Ref">/Transmission/trans rio shared var.lvlib/y steerer -</Property>
 	<Property Name="varPersistentID:{4239C7DF-18EE-40D5-B29B-8364274CB7A0}" Type="Ref">/My Computer/HE SHARED.lvlib/AI13</Property>
-	<Property Name="varPersistentID:{444D7A64-4109-4EBC-BD40-D000D835BE6F}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output</Property>
+	<Property Name="varPersistentID:{4413E345-9610-4A15-A683-B313123600AA}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint low</Property>
 	<Property Name="varPersistentID:{47E6DA54-1325-4785-B355-CB3592463047}" Type="Ref">/My Computer/HE SHARED.lvlib/AO12</Property>
 	<Property Name="varPersistentID:{4C4C2ABB-E64A-4700-827E-0838404D8BA1}" Type="Ref">/My Computer/HE SHARED.lvlib/DI19</Property>
-	<Property Name="varPersistentID:{4CEC3785-2C91-4A45-A3FB-B31118BA7A2D}" Type="Ref">/Transmission/RT_Transmission.vi/PID/proportional gain (Kc)</Property>
 	<Property Name="varPersistentID:{4D639560-DD50-446A-BF2A-50A6EFC102DF}" Type="Ref">/My Computer/HE SHARED.lvlib/DO3</Property>
 	<Property Name="varPersistentID:{4DEBA5B5-9066-4738-9C8C-7D2C72F3F888}" Type="Ref">/Transmission/trans rio shared var.lvlib/analyze image ion gauge1</Property>
 	<Property Name="varPersistentID:{4E36FC94-CC88-4336-9C28-631ED3CE3811}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Y1 -</Property>
 	<Property Name="varPersistentID:{52A8F666-41BD-4235-A84B-39B0E56FCC9E}" Type="Ref">/My Computer/HE SHARED.lvlib/DI12</Property>
-	<Property Name="varPersistentID:{5315FFA8-A41A-41BB-BA4C-7E76C34C4C7D}" Type="Ref">/Transmission/RT_Transmission.vi/PID/reinitialize? (F)</Property>
 	<Property Name="varPersistentID:{53A61625-5E1B-4CC3-A368-55FED3671826}" Type="Ref">/My Computer/HE SHARED.lvlib/DO5</Property>
 	<Property Name="varPersistentID:{53F2D728-19CA-4F71-8D44-F62A2EA9F4DB}" Type="Ref">/My Computer/HE SHARED.lvlib/DI3</Property>
-	<Property Name="varPersistentID:{547EE020-D6D7-4300-A0C0-532DC98C1B7E}" Type="Ref">/Transmission/RT_Transmission.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{54D2618C-F2FF-4068-861C-A47399D07CB3}" Type="Ref">/My Computer/HE SHARED.lvlib/AI11</Property>
 	<Property Name="varPersistentID:{55CD8541-5F35-4435-9C45-A075E535E8E9}" Type="Ref">/Transmission/trans rio shared var.lvlib/switch object ion gauge1</Property>
-	<Property Name="varPersistentID:{569B1D38-5B77-4543-9AF2-DEC80F669825}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{56B3EA6C-815B-4E75-A3EE-67F489F1E5EB}" Type="Ref">/Transmission/trans rio shared var.lvlib/trans steerer X+ Voltage readback</Property>
+	<Property Name="varPersistentID:{59220A3B-6903-4F24-82C4-827377371782}" Type="Ref">/Transmission/RT_Transmission.vi/PID/beta</Property>
 	<Property Name="varPersistentID:{5B9B7ACF-0808-49AB-B28A-CE6B4F446971}" Type="Ref">/My Computer/HE SHARED.lvlib/DI25</Property>
 	<Property Name="varPersistentID:{5C75925B-7309-49FB-995E-32F876E71B6A}" Type="Ref">/Transmission/trans rio shared var.lvlib/analyze image ion gauge2</Property>
 	<Property Name="varPersistentID:{5EF4A111-9782-4F14-A11A-AF0164C433F7}" Type="Ref">/My Computer/HE SHARED.lvlib/HE Quad Current B</Property>
@@ -70,17 +67,19 @@
 	<Property Name="varPersistentID:{6B7513D8-854A-44C5-AF01-D62A8C0F2801}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Y2+</Property>
 	<Property Name="varPersistentID:{6E881740-10EB-4D0E-8AC0-BEEF573F4F0D}" Type="Ref">/My Computer/HE SHARED.lvlib/DI22</Property>
 	<Property Name="varPersistentID:{6EE72632-A30D-43FA-8C3F-020C5981252F}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank exit ion gauge</Property>
+	<Property Name="varPersistentID:{6F3740C7-FE8B-4F72-BD85-BC5122033A78}" Type="Ref">/Transmission/RT_Transmission.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{70037C29-06DB-45E6-94D4-441370EB1D42}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Str Current3</Property>
 	<Property Name="varPersistentID:{7040D02F-253D-485E-90E7-9ADD454E7957}" Type="Ref">/My Computer/HE SHARED.lvlib/analyze magnet ps</Property>
 	<Property Name="varPersistentID:{716C2FF1-5CC1-42C2-A38C-89E04B254374}" Type="Ref">/My Computer/HE SHARED.lvlib/He cpu total</Property>
+	<Property Name="varPersistentID:{71871C7A-6535-409D-8CBC-273DE80AE4BE}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint</Property>
 	<Property Name="varPersistentID:{73067726-F02D-4CB3-ABBB-308C230E9F5F}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Voltage Y1+</Property>
 	<Property Name="varPersistentID:{730F4032-D7A6-4A90-92DF-2F14D573B37C}" Type="Ref">/My Computer/HE SHARED.lvlib/AI24</Property>
 	<Property Name="varPersistentID:{75B8612B-EFBB-4A9B-BBA1-973646C7672C}" Type="Ref">/My Computer/HE SHARED.lvlib/AI26</Property>
 	<Property Name="varPersistentID:{75CC35EE-5400-4090-AAD7-50782BBBF760}" Type="Ref">/My Computer/HE SHARED.lvlib/DI24</Property>
 	<Property Name="varPersistentID:{763EF68E-901A-40A8-9E9A-75F1F8E727BA}" Type="Ref">/Transmission/trans rio shared var.lvlib/analyze magnet read field</Property>
 	<Property Name="varPersistentID:{77FA5005-4507-4416-B93C-6EC30199DC04}" Type="Ref">/My Computer/HE SHARED.lvlib/DI15</Property>
-	<Property Name="varPersistentID:{79303A2D-35BC-4D5F-853D-44DE909D9A38}" Type="Ref">/Transmission/RT_Transmission.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{79FBEA30-96C8-4742-ABFB-AD6D2284E068}" Type="Ref">/My Computer/HE SHARED.lvlib/AI31</Property>
+	<Property Name="varPersistentID:{7A83B716-F4CB-4688-841D-A8B6B3FB9977}" Type="Ref">/Transmission/RT_Transmission.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{7BD0E2B9-1E54-44F8-8EDF-6B8A030518CD}" Type="Ref">/Transmission/trans rio shared var.lvlib/switch object convectron2</Property>
 	<Property Name="varPersistentID:{7BFD335F-D438-4779-B79C-C582568735FB}" Type="Ref">/My Computer/HE SHARED.lvlib/DI26</Property>
 	<Property Name="varPersistentID:{7D512DE7-B779-4703-86C9-7F66B6AE533C}" Type="Ref">/My Computer/HE SHARED.lvlib/He Quad A</Property>
@@ -88,7 +87,6 @@
 	<Property Name="varPersistentID:{85EA470F-27F7-431A-B76C-664E0F939568}" Type="Ref">/Transmission/trans rio shared var.lvlib/trans steerer X- current</Property>
 	<Property Name="varPersistentID:{86436405-C49C-4156-9F59-92C0E65F31FC}" Type="Ref">/My Computer/HE SHARED.lvlib/He Quad B</Property>
 	<Property Name="varPersistentID:{87767C4F-5B91-47F8-8F69-5EB0798A07C8}" Type="Ref">/Transmission/trans rio shared var.lvlib/exb-</Property>
-	<Property Name="varPersistentID:{899DC041-79F4-4D2A-A738-DC3146F633F4}" Type="Ref">/Transmission/RT_Transmission.vi/PID/auto? (T)</Property>
 	<Property Name="varPersistentID:{8A112210-B618-4A4B-AED5-E196FA1DC5A1}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Voltage Y2-</Property>
 	<Property Name="varPersistentID:{8A375C53-B202-485A-9430-FB48DC832574}" Type="Ref">/My Computer/HE SHARED.lvlib/AI29</Property>
 	<Property Name="varPersistentID:{8CC8DB78-0ED0-44AA-8C4A-57BF577B5ACD}" Type="Ref">/Transmission/trans rio shared var.lvlib/ExB Readback voltage +</Property>
@@ -100,37 +98,38 @@
 	<Property Name="varPersistentID:{9880C459-75BD-461E-B84B-F4B56AD246CB}" Type="Ref">/My Computer/HE SHARED.lvlib/AO8</Property>
 	<Property Name="varPersistentID:{989CB245-8AF7-41F7-8586-01FA2F4E7656}" Type="Ref">/Transmission/trans rio shared var.lvlib/trans steerer Y- Current</Property>
 	<Property Name="varPersistentID:{98FA5A11-B2AC-4E10-B4DE-906120058B7D}" Type="Ref">/My Computer/HE SHARED.lvlib/AO13</Property>
-	<Property Name="varPersistentID:{990024B2-2FB2-444A-8D4E-AADF2A5D60BE}" Type="Ref">/Transmission/RT_Transmission.vi/PID/linearity</Property>
 	<Property Name="varPersistentID:{9C4F3740-019C-486E-A891-272AAF352057}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Cup</Property>
-	<Property Name="varPersistentID:{A11CC38E-FC83-4EFB-8D10-5DA5AF3452FD}" Type="Ref">/Transmission/RT_Transmission.vi/PID/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{A397AA70-9B4C-4EE6-A264-67D47525551A}" Type="Ref">/My Computer/HE SHARED.lvlib/DI11</Property>
+	<Property Name="varPersistentID:{A3E17CB1-C7C3-487D-9A41-917F2CC5641A}" Type="Ref">/Transmission/RT_Transmission.vi/PID/integral time (Ti, min)</Property>
 	<Property Name="varPersistentID:{A7A6E800-060E-41A6-8088-A142D70BE349}" Type="Ref">/Transmission/trans rio shared var.lvlib/trans steererY- Voltage</Property>
 	<Property Name="varPersistentID:{AAAD34B7-4F90-4D81-AFAE-3E574C8FEA44}" Type="Ref">/My Computer/HE SHARED.lvlib/DO2</Property>
 	<Property Name="varPersistentID:{ACC65FF6-E0F6-46B8-8FAA-B21977D00EC0}" Type="Ref">/My Computer/HE SHARED.lvlib/DI20</Property>
 	<Property Name="varPersistentID:{ADF8A766-578D-45BD-851F-601F1C63FFBF}" Type="Ref">/Transmission/trans rio shared var.lvlib/y steerer +</Property>
 	<Property Name="varPersistentID:{B3457C7B-5B06-4945-8B1F-D040CAF03E82}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Str Current1</Property>
 	<Property Name="varPersistentID:{B464F8F7-E9F9-48C6-A539-10DFDF5DDC9F}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Voltage X1-</Property>
+	<Property Name="varPersistentID:{BAECE158-3414-4043-A43A-377138E1D7CD}" Type="Ref">/Transmission/RT_Transmission.vi/PID/proportional gain (Kc)</Property>
+	<Property Name="varPersistentID:{C0C5EEC1-6EC7-4368-ABA3-BC09A5805167}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{C0E200C2-2C2D-40F4-80BB-D9E082353905}" Type="Ref">/My Computer/HE SHARED.lvlib/analyze magnet set</Property>
 	<Property Name="varPersistentID:{C6610499-B1E7-4169-853E-E89A9C54C41D}" Type="Ref">/My Computer/HE SHARED.lvlib/DI9</Property>
 	<Property Name="varPersistentID:{C6D7DEF3-B823-4BB0-9D42-7E53A79985B0}" Type="Ref">/My Computer/HE SHARED.lvlib/AI9</Property>
 	<Property Name="varPersistentID:{C7A61921-AD96-4648-B384-CDDDC1CDCCD9}" Type="Ref">/Transmission/trans rio shared var.lvlib/analyze magnet set field</Property>
 	<Property Name="varPersistentID:{C8BD0652-F351-40A3-9156-42346C6E585A}" Type="Ref">/My Computer/HE SHARED.lvlib/DI28</Property>
+	<Property Name="varPersistentID:{C94EAD4C-EA24-499D-A4DF-D26DA01B789C}" Type="Ref">/Transmission/RT_Transmission.vi/PID/error in</Property>
 	<Property Name="varPersistentID:{C96911A8-D29B-4CF3-9B39-4AF36D01E633}" Type="Ref">/My Computer/HE SHARED.lvlib/AI28</Property>
-	<Property Name="varPersistentID:{CA359A5B-F8AB-44DC-B0DA-1FA1B6818BE2}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output high</Property>
 	<Property Name="varPersistentID:{CBD5EEF6-9782-4CAE-9EF7-E9056FDD5B4A}" Type="Ref">/My Computer/HE SHARED.lvlib/DI29</Property>
 	<Property Name="varPersistentID:{CD5147F1-F93B-49EF-9EFF-23461B01567D}" Type="Ref">/My Computer/HE SHARED.lvlib/AO14</Property>
 	<Property Name="varPersistentID:{CD6987FB-F7BD-408E-BEDD-B3FB8C44C664}" Type="Ref">/Transmission/trans rio shared var.lvlib/Analyze image Ion Gauge</Property>
 	<Property Name="varPersistentID:{CF10CDE9-14CE-4F4D-A881-01043C8C68DB}" Type="Ref">/My Computer/HE SHARED.lvlib/AI15</Property>
 	<Property Name="varPersistentID:{CF16F1AB-63E0-4182-84DC-2138AC803D36}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Str Current5</Property>
 	<Property Name="varPersistentID:{D0749A4B-331F-4775-A079-3BF8C9B96D2E}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer X1 +</Property>
-	<Property Name="varPersistentID:{D0778D54-FBA2-4DE6-83F3-57B828428674}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint low</Property>
-	<Property Name="varPersistentID:{D0EE33A4-B3B1-476D-97EC-3BB90E00C27F}" Type="Ref">/Transmission/RT_Transmission.vi/PID/setpoint high</Property>
 	<Property Name="varPersistentID:{D15299E0-3C4B-43DD-8878-C8DFBE7DEBD5}" Type="Ref">/Transmission/trans rio shared var.lvlib/ExB Readback voltage -</Property>
 	<Property Name="varPersistentID:{D49F922E-F5A3-40E8-AB22-7A9186F96E3E}" Type="Ref">/My Computer/HE SHARED.lvlib/analyze magnet read</Property>
-	<Property Name="varPersistentID:{D62AB66B-D77F-4B94-8A7F-25FE7BBBC319}" Type="Ref">/Transmission/RT_Transmission.vi/PID/beta</Property>
+	<Property Name="varPersistentID:{DA87935F-2B30-42D6-AC36-59D3493D3645}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output</Property>
 	<Property Name="varPersistentID:{DAA4DE3E-EB98-4801-8AEC-AB23C274358B}" Type="Ref">/My Computer/HE SHARED.lvlib/He Quad B Voltage</Property>
 	<Property Name="varPersistentID:{DB04FE1F-24E8-491C-80EB-266A9BD61389}" Type="Ref">/My Computer/HE SHARED.lvlib/DI31</Property>
 	<Property Name="varPersistentID:{DB1293A4-1E45-4CF5-BFD7-A14E7E08C779}" Type="Ref">/My Computer/HE SHARED.lvlib/DI17</Property>
+	<Property Name="varPersistentID:{DB3A7C08-CC4F-45A0-81A5-DFAA32FA21F8}" Type="Ref">/Transmission/RT_Transmission.vi/PID/output low</Property>
+	<Property Name="varPersistentID:{DB69DFD0-3E81-43A1-9B06-BC14AFFBDD46}" Type="Ref">/Transmission/RT_Transmission.vi/PID/process variable</Property>
 	<Property Name="varPersistentID:{DB7325E5-977C-4AC1-8450-58FB09747774}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Y1 +</Property>
 	<Property Name="varPersistentID:{DC78DABE-6098-490D-A508-25ACF32F6768}" Type="Ref">/My Computer/HE SHARED.lvlib/DI13</Property>
 	<Property Name="varPersistentID:{DE57A3E6-509E-492B-8126-EB490E6AC4F2}" Type="Ref">/My Computer/HE SHARED.lvlib/AO9</Property>
@@ -140,14 +139,15 @@
 	<Property Name="varPersistentID:{E4313475-22C6-43C9-9D0B-3E3DCD9C918B}" Type="Ref">/My Computer/HE SHARED.lvlib/DO6</Property>
 	<Property Name="varPersistentID:{E4E14783-248A-4C6C-A132-F7AFBBF1B154}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Y2-</Property>
 	<Property Name="varPersistentID:{E657E630-5733-4A7B-8679-8655C5C2A780}" Type="Ref">/My Computer/HE SHARED.lvlib/AI27</Property>
-	<Property Name="varPersistentID:{E6D1BA04-6F28-4BBE-B4B6-CA1FD12FF6E0}" Type="Ref">/Transmission/RT_Transmission.vi/PID/dt (s)</Property>
 	<Property Name="varPersistentID:{E83EF741-9553-4749-AFC4-41993061E131}" Type="Ref">/My Computer/HE SHARED.lvlib/He Quad A Voltage</Property>
 	<Property Name="varPersistentID:{E8AC4B3E-01C3-49E8-9F8B-0599E6995C8B}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Steerer Voltage X1+</Property>
 	<Property Name="varPersistentID:{EB791DEB-9AA9-4FE7-842A-6CCE4B475637}" Type="Ref">/My Computer/HE SHARED.lvlib/Tank Exit Str Current2</Property>
-	<Property Name="varPersistentID:{EE32E450-3A53-447E-A0F7-B2B7875559AB}" Type="Ref">/Transmission/RT_Transmission.vi/PID/error out</Property>
 	<Property Name="varPersistentID:{EF2C7FBB-32A0-445E-B271-D997548C0C0D}" Type="Ref">/My Computer/HE SHARED.lvlib/DO7</Property>
 	<Property Name="varPersistentID:{F07961B5-64DD-4991-9ABB-FD7C1FA26FE2}" Type="Ref">/My Computer/HE SHARED.lvlib/AI10</Property>
+	<Property Name="varPersistentID:{F693E587-BC60-4E7D-9DFE-42416463BC2E}" Type="Ref">/Transmission/RT_Transmission.vi/PID/auto? (T)</Property>
+	<Property Name="varPersistentID:{FA15B91C-4EE6-421D-B62C-4A315F4D450D}" Type="Ref">/Transmission/RT_Transmission.vi/PID/derivative time (Td, min)</Property>
 	<Property Name="varPersistentID:{FAD76D68-E0A9-4077-B881-FEFB4CD715FC}" Type="Ref">/My Computer/HE SHARED.lvlib/AO11</Property>
+	<Property Name="varPersistentID:{FD9D8417-83A0-4B2D-AA9D-D67762D44FE0}" Type="Ref">/Transmission/RT_Transmission.vi/PID/reinitialize? (F)</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
 		<Property Name="IOScan.NetVarPeriod" Type="UInt">100</Property>
@@ -173,7 +173,7 @@
 	<Item Name="Transmission" Type="RT CompactRIO">
 		<Property Name="alias.name" Type="Str">Transmission</Property>
 		<Property Name="alias.value" Type="Str">192.168.1.91</Property>
-		<Property Name="CCSymbols" Type="Str">TARGET_TYPE,RT;OS,VxWorks;CPU,PowerPC;DeviceCode,7459;</Property>
+		<Property Name="CCSymbols" Type="Str">OS,VxWorks;CPU,PowerPC;DeviceCode,7459;TARGET_TYPE,RT;</Property>
 		<Property Name="crio.ControllerPID" Type="Str">7459</Property>
 		<Property Name="crio.family" Type="Str">901x</Property>
 		<Property Name="host.ResponsivenessCheckEnabled" Type="Bool">true</Property>
@@ -182,16 +182,19 @@
 		<Property Name="host.TargetCPUID" Type="UInt">2</Property>
 		<Property Name="host.TargetOSID" Type="UInt">14</Property>
 		<Property Name="target.cleanupVisa" Type="Bool">false</Property>
+		<Property Name="target.Deployment_DownloadInstallerPath" Type="Path"></Property>
+		<Property Name="target.Deployment_SilentInstallation" Type="Bool">false</Property>
 		<Property Name="target.FPProtocolGlobals_ControlTimeLimit" Type="Int">300</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Port" Type="Int">80</Property>
 		<Property Name="target.getDefault-&gt;WebServer.Timeout" Type="Int">60</Property>
-		<Property Name="target.IOScan.Faults" Type="Str"></Property>
+		<Property Name="target.IOScan.Faults" Type="Str">1.0,0;</Property>
 		<Property Name="target.IOScan.NetVarPeriod" Type="UInt">100</Property>
 		<Property Name="target.IOScan.NetWatchdogEnabled" Type="Bool">false</Property>
 		<Property Name="target.IOScan.Period" Type="UInt">10000</Property>
 		<Property Name="target.IOScan.PowerupMode" Type="UInt">0</Property>
 		<Property Name="target.IOScan.Priority" Type="UInt">0</Property>
 		<Property Name="target.IOScan.ReportModeConflict" Type="Bool">true</Property>
+		<Property Name="target.IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
 		<Property Name="target.IsRemotePanelSupported" Type="Bool">true</Property>
 		<Property Name="target.RTCPULoadMonitoringEnabled" Type="Bool">true</Property>
 		<Property Name="target.RTDebugWebServerHTTPPort" Type="Int">8001</Property>
@@ -206,11 +209,13 @@
 		<Property Name="target.server.tcp.enabled" Type="Bool">false</Property>
 		<Property Name="target.server.tcp.paranoid" Type="Bool">true</Property>
 		<Property Name="target.server.tcp.port" Type="Int">3363</Property>
-		<Property Name="target.server.tcp.serviceName" Type="Str">Main Application Instance/VI Server</Property>
+		<Property Name="target.server.tcp.serviceName" Type="Str"></Property>
 		<Property Name="target.server.tcp.serviceName.default" Type="Str">Main Application Instance/VI Server</Property>
 		<Property Name="target.server.vi.access" Type="Str">+*</Property>
 		<Property Name="target.server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="target.server.vi.propertiesEnabled" Type="Bool">true</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInContextHelp" Type="Bool">false</Property>
+		<Property Name="target.server.viscripting.showScriptingOperationsInEditor" Type="Bool">false</Property>
 		<Property Name="target.WebServer.Config" Type="Str">NI.AddLVRouteVars
 NI.ServerName default
 DocumentRoot "$LVSERVER_DOCROOT"
@@ -927,6 +932,7 @@ InactivityTimeout 60
 				<Item Name="Dependencies" Type="Dependencies">
 					<Item Name="vi.lib" Type="Folder">
 						<Item Name="FxpSim.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/FXPMathLib/sim/FxpSim.dll"/>
+						<Item Name="lvSimController.dll" Type="Document" URL="/&lt;vilib&gt;/rvi/Simulation/lvSimController.dll"/>
 					</Item>
 				</Item>
 				<Item Name="Build Specifications" Type="Build">
@@ -1023,7 +1029,7 @@ InactivityTimeout 60
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{E9FF5913-C83C-421E-9F2D-AE36D91D6491}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/ni-rt/startup</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">startup.rtexe</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/ni-rt/startup/startup.rtexe</Property>
